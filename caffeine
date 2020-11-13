@@ -18,4 +18,5 @@ while [ "$SECONDS" -lt "$end" ];do
 	if ((tres == 0)); then
 		xdotool click 1 
 	fi
+	sleep 0.8
 done
